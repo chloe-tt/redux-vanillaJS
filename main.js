@@ -55,14 +55,14 @@ add.addEventListener('click', () => {
 store.dispatch(addAction)
 });
 
-const addTen = document.getElementById('add-ten');
-addTen.addEventListener('click', () => {
-   store.dispatch(addTenAction);
-});
-
 const remove = document.getElementById('remove');
 remove.addEventListener('click', () => {
 store.dispatch(removeAction)
+});
+
+const addTen = document.getElementById('add-ten');
+addTen.addEventListener('click', () => {
+   store.dispatch(addTenAction);
 });
 
 const removeTen = document.getElementById('remove-ten');
